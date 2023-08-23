@@ -13,6 +13,7 @@
 		9F7220792A95D99000DC24D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7220772A95D99000DC24D7 /* Main.storyboard */; };
 		9F72207B2A95D99300DC24D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F72207A2A95D99300DC24D7 /* Assets.xcassets */; };
 		9F72207E2A95D99300DC24D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F72207C2A95D99300DC24D7 /* LaunchScreen.storyboard */; };
+		9F7220862A95DCDB00DC24D7 /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7220852A95DCDB00DC24D7 /* SharpImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F72207A2A95D99300DC24D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F72207D2A95D99300DC24D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F72207F2A95D99300DC24D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7220852A95DCDB00DC24D7 /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9F7220732A95D99000DC24D7 /* SceneDelegate.swift */,
 				9F7220752A95D99000DC24D7 /* ViewController.swift */,
 				9F7220772A95D99000DC24D7 /* Main.storyboard */,
+				9F7220852A95DCDB00DC24D7 /* SharpImageView.swift */,
 				9F72207A2A95D99300DC24D7 /* Assets.xcassets */,
 				9F72207C2A95D99300DC24D7 /* LaunchScreen.storyboard */,
 				9F72207F2A95D99300DC24D7 /* Info.plist */,
@@ -141,6 +144,7 @@
 				9F7220762A95D99000DC24D7 /* ViewController.swift in Sources */,
 				9F7220722A95D99000DC24D7 /* AppDelegate.swift in Sources */,
 				9F7220742A95D99000DC24D7 /* SceneDelegate.swift in Sources */,
+				9F7220862A95DCDB00DC24D7 /* SharpImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
